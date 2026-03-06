@@ -1,33 +1,17 @@
 # SciTaRC: Benchmarking QA on Scientific Tabular Data that Requires Language Reasoning and Complex Computation
 
-[![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/mattwang123/SciTaRC)
+[![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/JHU-CLSP/SciTaRC)
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-red)](https://arxiv.org/abs/YOUR_ARXIV_ID_HERE)
 [![Code License: MIT](https://img.shields.io/badge/Code%20License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Data License: CC BY-NC 4.0](https://img.shields.io/badge/Data%20License-CC%20BY--NC%204.0-blue.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
-**SciTaRC** is an expert-authored benchmark of questions about tabular data in scientific papers requiring both deep language reasoning and complex computation. We show that current state-of-the-art AI models fail on at least 30% of these questions. 
-<!-- 
-## 🏆 Key Findings
-
-Our analysis reveals a universal **"execution bottleneck"**: both code and language models struggle to faithfully execute plans, even when provided with correct strategies. Specifically, code-based methods prove brittle on raw scientific tables, while natural language reasoning primarily fails due to initial comprehension issues and calculation errors.
-
-<p align="center">
-  <img src="assets/agreement_matrix.png" alt="Model Agreement Matrix" width="800"/>
-</p>
-<em>Figure 1: <strong>The Hard Ceiling.</strong> The Model Agreement Matrix illustrates that while stronger models perform better overall, a solid band of questions remains unsolved by any system (gray band at the bottom), indicating a hard limit on current composite reasoning capabilities.</em>
-
-<p align="center">
-  <img src="assets/gain_curve.png" alt="Performance Gain Curves" width="800"/>
-</p>
-<em>Figure 2: <strong>The Execution Bottleneck.</strong> Performance Gain Curves show that while code-specialized models benefit from explicit planning on hard tasks, generalist models regress on easy tasks due to the "Cost of Compliance."</em>
-
-*(Note to author: Save Figure 3 as `assets/agreement_matrix.png` and Figure 6 as `assets/gain_curve.png` to display these charts!)* -->
+**SciTaRC** is an expert-authored benchmark of questions about tabular data in scientific papers requiring both deep language reasoning and complex computation. We show that current state-of-the-art AI models fail on at least 23% of these questions. 
 
 ## ⚙️ Setup
 
 Clone the repository and install the minimal dependencies:
 
-    git clone [https://github.com/mattwang123/SciTaRC.git](https://github.com/mattwang123/SciTaRC.git)
+    git clone https://github.com/JHU-CLSP/SciTaRC.git
     cd SciTaRC
     pip install -r requirements.txt
 
@@ -115,11 +99,3 @@ Calculate input and reasoning complexity metrics ($C_{flow}$, $I_{calc}$, $L_{pl
 
 If you use this benchmark, please cite our paper:
 
-    @misc{wang2026scitarc,
-          title={SciTaRC: Benchmarking QA on Scientific Tabular Data that Requires Language Reasoning and Complex Computation}, 
-          author={Wang, Hexuan and Ren, Yaxuan and Bommireddypalli, Srikar and Chen, Shuxian and Prabhudesai, Adarsh and Zhou, Rongkun and Baral, Elina and Koehn, Philipp},
-          year={2026},
-          eprint={YOUR_ARXIV_ID},
-          archivePrefix={arXiv},
-          primaryClass={cs.CL}
-    }
