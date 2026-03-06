@@ -240,9 +240,9 @@ def main(args):
     print(f"Model: {model_tag} | Plan: {args.plan_mode} | Exec: {args.exec_mode}")
     
     if args.use_hf:
-        print(f"Loading dataset from Hugging Face: mattwang123/SciTaRC")
+        print(f"Loading dataset from Hugging Face: jhu-clsp/SciTaRC")
         from datasets import load_dataset
-        dataset = load_dataset("mattwang123/SciTaRC", split="test")
+        dataset = load_dataset("jhu-clsp/SciTaRC", split="test")
     else:
         print(f"Loading local dataset: {args.dataset_json}")
         with open(args.dataset_json) as f:
