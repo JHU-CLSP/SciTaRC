@@ -17,7 +17,7 @@ Clone the repository and install the minimal dependencies:
 
 ## 📊 Dataset
 
-The benchmark data is provided locally as `scitarc_dataset.json` and is also accessible via [Hugging Face](https://huggingface.co/datasets/mattwang123/SciTaRC). The dataset consists of 371 expert-annotated questions. Every instance includes an expert-annotated **pseudo-code plan** to facilitate granular diagnosis of model failures.
+The benchmark data is provided locally as `scitarc_dataset.json` and is also accessible via [Hugging Face](https://huggingface.co/datasets/JHU-CLSP/SciTaRC). The dataset consists of 371 expert-annotated questions. Every instance includes an expert-annotated **pseudo-code plan** to facilitate granular diagnosis of model failures.
 
 ### Quick Look (Demo Instance)
 
