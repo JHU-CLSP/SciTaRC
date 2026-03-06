@@ -97,5 +97,5 @@ Calculate input and reasoning complexity metrics ($C_{flow}$, $I_{calc}$, $L_{pl
 
 ## 📖 Citation
 
-If you use this benchmark, please cite our paper:
+If you use this dataset, please cite our paper:
 
