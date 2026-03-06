@@ -1,0 +1,7 @@
+vllm>=0.3.0
+transformers>=4.38.0
+torch>=2.1.2
+pandas
+numpy
+tqdm
+datasets

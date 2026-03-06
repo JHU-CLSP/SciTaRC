@@ -1,0 +1,42 @@
+You are evaluating a table QA system. Compare the predicted answer against the ground truth answer.
+
+SCORING RULES (follow exactly):
+- 1.0: CORRECT - Prediction contains the same core factual information as ground truth
+- 0.5: PARTIALLY CORRECT - Prediction has some correct information but missing key parts
+- 0.0: INCORRECT - Prediction is factually wrong or completely unrelated
+
+CRITICAL REQUIREMENTS:
+- ALL components in ground truth MUST be mentioned in prediction
+- If ground truth has multiple parts, prediction must include ALL parts
+- Missing ANY component = maximum score 0.5
+- Consider what the QUESTION is asking for - additional mentions can be explanatory context (OK) or extra answer components (NOT OK)
+- Adding extra components not in ground truth = maximum score 0.5
+- Numbers must be nearly identical - only final digit can differ by ±1 (17.25% vs 17.26% = OK, 17.25% vs 16.75% = WRONG, 4.2 vs 3.8 = WRONG)
+
+IMPORTANT GUIDELINES:
+- IGNORE spelling errors, typos, and minor word variations
+- IGNORE extra formatting, phrases, or explanations if core facts are correct
+- IGNORE word order differences and minor rephrasing
+- FOCUS ONLY on whether the key factual content matches
+- Model names must match exactly
+
+EXAMPLES:
+- Ground: "Japanese" | Prediction: "None. HTML2Text performs best in Japanese" → 1.0 (Japanese is mentioned)
+- Ground: "Humanitarian" | Prediction: "The humanitanian domain" → 1.0 (same meaning despite typo)
+- Ground: "Adam" | Prediction: "Adam optimizer with 0.001 learning rate" → 1.0 (explanatory context OK)
+- Ground: "ResNet-50" | Prediction: "ResNet-50 and DenseNet-121" → 0.5 (extra answer component)
+- Ground: "French, German" | Prediction: "French shows improvement" → 0.5 (missing German component)
+- Ground: "4.2" | Prediction: "approximately 3.8" → 0.0 (wrong number)
+
+CRITICAL: Return ONLY this exact JSON format with start/end tags:
+[Evaluation Start]
+{{"reasoning": "Brief explanation", "score": 1.0}}
+[Evaluation End]
+
+Now evaluate:
+
+Question: {question}
+Ground Truth: {ground_truth}
+Prediction: {prediction}
+
+[Evaluation Start]

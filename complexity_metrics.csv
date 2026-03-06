@@ -1,0 +1,372 @@
+row_id,question_id,answer,answer_type,plan_length,max_depth,retrieval_count,arithmetic_count,loop_count,if_count,logic_complexity,num_tables,total_cells,total_tokens
+0,q_0,NLLB-200-1.3B. 64.71,numerical,8,2,2,3,2,0,4,1,100,727
+1,q_1,neural translation,categorical,6,1,3,0,0,1,2,2,48,480
+2,q_2,"Llama3-8B: 0.945, Llama3-70B: 0.85, Pythia-6.9B: 0.525, GPT-J: 0.435",numerical,4,1,1,1,1,0,2,1,36,336
+3,q_3,divison,categorical,3,0,1,1,0,0,0,1,36,336
+4,q_4,Llama3-8B,categorical,5,1,1,2,1,0,2,1,36,336
+5,q_5,"7.2, 9.05, 10.0, 13.6",numerical,4,1,1,1,1,0,2,1,119,889
+6,q_6,"English, Nepali, Sinhala, Hindi, Gujarati, Finnish, Estonian, Latvian, Kazakh",categorical,2,0,1,0,0,0,0,1,119,889
+7,q_7,Uralic,categorical,5,1,1,2,1,0,2,1,119,889
+8,q_8,X→En,categorical,8,1,3,2,0,1,2,2,72,820
+9,q_9,Biomed,categorical,9,3,2,4,2,1,6,1,78,1009
+10,q_10,CLS,categorical,5,1,1,2,1,0,2,1,78,1009
+11,q_11,No,categorical,11,1,2,4,0,1,2,1,16,505
+12,q_12,"WizardLM-2-8x22B, 67.6",numerical,6,1,1,3,1,0,2,1,90,709
+13,q_13,Codestral,categorical,6,2,2,2,1,1,4,1,90,709
+14,q_14,84.92,numerical,6,0,2,3,0,0,0,2,143,1317
+15,q_15,Webtables,categorical,7,1,2,0,0,1,2,1,50,702
+16,q_16,2,numerical,5,1,1,2,1,0,2,1,63,689
+17,q_17,without tool use,categorical,13,2,4,2,1,2,5,1,99,1878
+18,q_18,0.1066,numerical,4,0,1,2,0,0,0,1,130,1109
+19,q_19,ProntoQA and ProsQA,categorical,5,2,2,1,1,1,4,1,70,965
+20,q_20,Yes,categorical,7,3,3,0,2,2,7,1,108,2188
+21,q_21,Romanized script,categorical,6,0,3,2,0,0,0,1,99,1221
+22,q_22,No,categorical,6,0,3,2,0,0,0,1,99,1221
+23,q_23,SimDRC,categorical,4,0,2,1,0,0,0,1,276,1553
+24,q_24,Yes,categorical,5,0,2,2,0,0,0,1,276,1553
+25,q_25,"IPS, Beam, top-k, nucleus, greedy, constractive",categorical,4,0,2,1,0,0,0,1,276,1553
+26,q_26,ChatGPT,categorical,5,0,2,2,0,0,0,2,80,578
+27,q_27,"fr, de, ru",categorical,4,1,1,1,1,0,2,2,80,578
+28,q_28,"Baichuan2-IEPILE, OneKE",numerical,5,0,2,2,0,0,0,1,144,1062
+29,q_29,2,numerical,6,2,3,1,1,1,4,1,144,1062
+30,q_30,Japanese,categorical,7,2,3,2,1,1,4,1,242,1732
+31,q_31,6.1,numerical,7,1,1,4,1,0,2,1,206,1615
+32,q_32,1,numerical,6,2,2,2,1,1,4,1,105,1046
+33,q_33,out of English,categorical,8,1,3,2,0,1,2,2,340,4863
+34,q_34,ARPO,categorical,5,2,2,1,1,1,4,1,84,1331
+35,q_35,CUNI-GA,categorical,3,0,1,1,0,0,0,1,205,1329
+36,q_36,CUNI-MH,categorical,3,0,1,1,0,0,0,1,205,1329
+37,q_37,CycleL,categorical,6,2,3,1,1,1,4,2,320,2178
+38,q_38,81.75,numerical,3,0,1,1,0,0,0,1,40,487
+39,q_39,Humanitarian,categorical,3,0,1,1,0,0,0,1,63,755
+40,q_40,"ARC-E, MMLU and SciQ",categorical,7,1,3,2,1,0,2,1,165,961
+41,q_41,"HelloSwag, PiQA",categorical,18,4,9,3,5,3,12,1,165,961
+42,q_42,GPT-4o,categorical,7,1,3,2,1,0,2,1,935,3722
+43,q_43,"General Tasks, Mathematics & Science and Multilingual",categorical,9,2,4,3,1,1,4,1,189,1063
+44,q_44,Korean,categorical,7,1,3,2,1,0,2,1,84,631
+45,q_45,Qwen2-0.5B on GPQA,numerical,10,3,6,1,2,1,6,2,351,2037
+46,q_46,recent one: Twitter2017 ,numerical,11,1,4,4,1,1,3,1,132,1038
+47,q_47,"Gemma-3, Qwen2.5 0.5B, Llama-3.1",numerical,13,3,8,2,2,2,7,1,256,1691
+48,q_48,6,numerical,11,1,2,4,0,1,2,1,260,4090
+49,q_49,Korean,categorical,8,1,2,4,1,0,2,1,182,3648
+50,q_50,"Mistral/Korean, Mistral/Swahili, Llama-2-13B/Swahili, Llama-3-8B/Swahili",numerical,10,1,4,3,2,0,3,2,374,5214
+51,q_51,"DeepSeek-R1-Distill-Qwen-7B on AIME24 and OmniMATH, DeepSeek-R1-Distill-Qwen-14B on AIME24, AIME25, LiveAoPS, and OlymBench",numerical,8,3,2,3,2,1,6,1,442,2202
+52,q_52,consonants,categorical,5,0,2,2,0,0,0,2,208,3174
+53,q_53,LasJ,categorical,7,3,1,3,2,1,6,1,224,1297
+54,q_54,Hotels,categorical,4,1,1,1,1,0,2,2,308,1669
+55,q_55,"Hotels, H-A",categorical,6,2,3,1,1,1,4,2,308,1669
+56,q_56,Spanish,categorical,7,2,2,2,2,1,5,2,170,1266
+57,q_57,Spanish,categorical,6,1,1,3,1,0,2,3,278,1973
+58,q_58,Slovak,categorical,7,1,2,3,1,0,2,1,206,1148
+59,q_59,Claude-3.5-Sonnet,numerical,5,1,1,2,1,0,2,1,480,2120
+60,q_60,0.75,numerical,8,0,2,5,0,0,0,2,121,1080
+61,q_61,Farsi,categorical,7,1,1,4,1,0,2,1,186,1512
+62,q_62,HotpotQA,categorical,7,2,1,3,2,0,4,1,232,1649
+63,q_63,"Recall, 4.9835",numerical,9,1,3,4,1,0,2,1,154,830
+64,q_64,"Attractions, 23.4",numerical,8,1,2,4,1,0,2,2,308,1669
+65,q_65,%Info on TruthfulQA,categorical,10,3,3,3,3,0,6,1,220,2352
+66,q_66,"Flights, 26.06%",numerical,6,1,2,2,1,0,2,2,308,1669
+67,q_67,Harder,categorical,19,1,5,7,3,4,8,1,420,2541
+68,q_68,Chinese,categorical,9,0,2,6,0,0,0,1,168,995
+69,q_69,MGSM: zh->zh/es/ru: es; MSVAMP: base->zh: zh; base->zh/de: zh; zh->zh/es/ru: es,categorical,9,4,4,1,3,1,8,1,168,995
+70,q_70,HotpotQA,categorical,10,2,3,3,3,0,5,1,232,1649
+71,q_71,16K,categorical,9,1,3,4,1,0,2,1,494,7969
+72,q_72,GPT-4o,categorical,9,1,2,5,1,0,2,1,288,1490
+73,q_73,"InternVL2.5-38B, InternVL2.5-78B, and Qwen2.5-VL-72B (on chrF++ EN-ZH)",numerical,10,3,4,3,2,1,6,1,160,1166
+74,q_74,12.5,numerical,6,1,2,2,1,0,2,1,477,3248
+75,q_75,49.9,numerical,11,2,6,2,2,0,4,3,765,12856
+76,q_76,"Vicuna-13B, 26.9",numerical,13,2,5,5,2,0,4,3,270,3444
+77,q_77,"Qwen2-VL, MiniCPM-v2",numerical,14,2,4,7,2,0,4,1,744,14938
+78,q_78,"o4-mini with probe, 149.03%",numerical,8,1,1,5,1,0,2,1,203,5278
+79,q_79,Formula w/ CS,categorical,9,1,2,5,1,0,2,1,270,3184
+80,q_80,"Llama-3.1-405B, Qwen2.5-72B",numerical,10,1,3,5,1,0,2,1,224,1438
+81,q_81,"TrustVLM-D,  fine-grained classification ",categorical,12,1,3,6,0,1,2,2,897,8351
+82,q_82,"F-H, H-R",categorical,9,3,5,1,2,1,6,2,308,1669
+83,q_83,"QwQ-32B, InfoTabs, PHT",numerical,12,3,6,3,2,2,7,1,420,2541
+84,q_84,"*MoE, 23.07%",numerical,6,1,2,2,1,0,2,1,273,2511
+85,q_85,"NLI, 15.09%",numerical,9,1,3,4,1,0,2,1,312,4049
+86,q_86,Primary sources,categorical,6,0,2,3,0,0,0,1,42,435
+87,q_87,"25, 11.7",numerical,8,0,4,3,0,0,0,1,96,858
+88,q_88,"0.325%, 0.73%",numerical,10,0,4,5,0,0,0,1,96,858
+89,q_89,"17.6, 42.5",numerical,17,0,7,8,0,0,0,2,480,3542
+90,q_90,Llama2-13B， Llama3-70B,categorical,14,3,8,3,2,1,6,1,440,3066
+91,q_91,"12.5%, 76.7%  ,ShortGPT",numerical,10,1,4,4,0,1,2,1,40,476
+92,q_92,1.10%,numerical,6,0,1,4,0,0,0,1,40,476
+93,q_93,"BERT-base, news, 0.28",numerical,8,2,2,3,2,0,4,1,240,1526
+94,q_94,LIME,categorical,11,1,4,5,1,0,2,1,180,2178
+95,q_95,"Ensemble model in Dutch,  news. 0.16",numerical,14,2,7,4,2,0,4,2,420,3704
+96,q_96,"GPT-4o mini, 3.83",numerical,12,3,6,3,2,1,6,1,210,2491
+97,q_97,"Cell-o1, 0.4614",numerical,7,1,3,2,1,0,2,1,165,1243
+98,q_98,"General Reasoning, 0.4898",numerical,9,1,5,2,1,0,2,1,342,3919
+99,q_99,"SQL, Schema, Adaptive",categorical,11,2,5,3,2,0,4,3,1007,4905
+100,q_100,Llama33-70B,categorical,9,1,3,4,1,0,2,1,396,5136
+101,q_101,(Table-Locate-by-Row-Col) experiment5,categorical,9,1,3,4,1,0,2,1,396,5136
+102,q_102,"Yes, 21.72",numerical,15,1,7,5,1,1,3,1,186,9328
+103,q_103,Finance and Government,categorical,10,1,5,3,1,0,2,1,120,1171
+104,q_104,"Gemma 2 9B,  Marco-LLM GLO 7B, Qwen 2.5 7B",numerical,7,1,3,2,1,0,2,1,374,5290
+105,q_105,Mixtral-8x22b-instruct-v0.1,numerical,10,1,3,5,1,0,2,1,156,1178
+106,q_106,"COMBO HalfCheetah, 40.7%, 13.7%",numerical,15,1,10,3,1,0,2,1,60,490
+107,q_107,"MAPLE HalfCheetah, 27.84, 43.5%",numerical,13,2,6,5,1,1,4,1,60,490
+108,q_108,"HalfCheetah, 4.824",numerical,10,2,2,5,2,0,4,1,289,3123
+109,q_109,"SCM-1.5B w/o logic, 1.77",numerical,8,1,2,4,1,0,2,1,145,2468
+110,q_110,"Llama-3-8B-UltraMedical, 16.8",numerical,9,2,4,3,1,1,4,1,190,2229
+111,q_111,"8, EmbedKGQA+, Subgraph Retrieval+, HGNet+, GSR+, ChatKBQA+, SPQG-KGQA+, SPQR-KGQA+, ARPE-KGQA+",numerical,9,2,3,4,1,1,4,1,224,1614
+112,q_112,"Qwen2.5-Coder-32B-Instruct, 5.58",numerical,9,1,2,5,1,0,2,1,100,1466
+113,q_113,"Domain: Governmental data, Task: Numerical analysis",categorical,5,0,2,2,0,0,0,3,94,1759
+114,q_114,6.435,numerical,7,0,2,4,0,0,0,1,407,15941
+115,q_115,7.24,numerical,7,0,2,4,0,0,0,1,407,15941
+116,q_116,"CPP, cross-domain→multi-domain at 60% OOD ratio, 2.56",numerical,13,4,5,4,3,2,9,2,240,2027
+117,q_117,12,numerical,13,4,6,3,3,3,10,3,336,2893
+118,q_118,"Current model, R on WBTR, 69",numerical,15,2,5,6,3,0,5,3,312,2245
+119,q_119,"R on WBTR, NO",categorical,10,1,2,4,0,1,2,3,312,2245
+120,q_120,"Qwen, ANSI Escape, 6.7",numerical,14,0,9,4,0,0,0,2,81,915
+121,q_121,"Qwen, 91.045",numerical,25,3,12,8,4,2,9,2,81,915
+122,q_122,0.4384,numerical,6,1,1,3,1,0,2,1,63,755
+123,q_123,"O1-Pruner, 4th on GPQA-D to 7th on LCB",numerical,9,1,4,3,1,0,2,1,310,2353
+124,q_124,"Jewish, 0.01",numerical,13,1,3,8,1,0,2,1,164,1380
+125,q_125,"GPT-4.1, Claude",numerical,15,1,8,5,1,0,2,1,185,1840
+126,q_126,"Gemini, Claude",categorical,9,0,5,3,0,0,0,1,185,1840
+127,q_127,LLaVA-OneVision-7B,categorical,9,1,4,3,1,0,2,1,567,4540
+128,q_128,Bloom 1B,categorical,14,1,7,5,1,0,2,1,248,2623
+129,q_129,"Best is 90%, except for SCIQ/RPJ2 60% English",numerical,25,4,9,11,4,1,9,1,120,1276
+130,q_130,English-Chinese,categorical,9,2,6,1,1,1,4,1,120,1043
+131,q_131,"Parallel Distributed, avg rank 2.5",numerical,5,1,0,3,1,0,2,2,200,1690
+132,q_132,"CLAUDE-SONNET-3.7, 38.56",numerical,6,1,2,2,1,0,2,1,351,2046
+133,q_133,TableBench ,categorical,7,1,3,2,1,0,2,1,177,7061
+134,q_134,12.8,numerical,9,1,2,5,1,0,2,1,36,742
+135,q_135,2 cases,categorical,10,3,4,3,2,1,6,1,120,934
+136,q_136,"N-POS-gram, 15.78%",numerical,15,1,7,6,1,0,2,1,155,1034
+137,q_137,2020 and 2022. The experiment in 2022 didn't use XAI Methods Comparison. ,categorical,10,0,7,2,0,0,0,1,66,690
+138,q_138,"8, 0",numerical,20,2,11,4,2,1,5,1,66,690
+139,q_139,23.2,numerical,10,0,6,3,0,0,0,1,76,401
+140,q_140,"5, 8",numerical,9,2,6,1,1,1,4,1,52,783
+141,q_141,"Perplexity.AI ($3/$15 per 1M tokens), Deepseek ($0.55/$2.19 per 1M tokens), 33.3% ",numerical,14,1,6,5,2,0,3,1,264,2393
+142,q_142,"Gemini ($1.25/$10 per 1M tokens), rule 3 and rule 5 failed, rule 2 was corrected the second most times.",numerical,20,2,10,7,2,1,5,1,264,2393
+143,q_143,Bloom,categorical,7,1,3,2,1,0,2,1,270,1481
+144,q_144,Aya-23-35B,categorical,14,1,7,5,1,0,2,2,342,2235
+145,q_145,AIME2025,categorical,12,1,6,4,1,0,2,2,90,700
+146,q_146,"English/Politeness, English/Intimacy, Spanish/Intimacy",categorical,14,3,9,2,2,1,6,1,252,1604
+147,q_147,"1.700, GA-BC’s ConvNeXtV2, 1.689",numerical,26,2,9,12,4,0,6,1,198,5379
+148,q_148,"The first group, 45.53, 43.93",numerical,16,1,4,9,2,0,3,1,250,1969
+149,q_149,"single hop, 16.61",numerical,11,1,4,5,1,0,2,1,317,11906
+150,q_150,"memos-0630, 36.25",numerical,27,3,18,5,3,1,7,1,317,11906
+151,q_151,"Qwen3-8B, 62.07%",numerical,17,1,7,8,1,0,2,1,252,3753
+152,q_152,0.043,numerical,6,1,1,3,1,0,2,1,235,2599
+153,q_153,LLM+Premise(BM25),categorical,15,1,7,5,2,0,3,1,235,2599
+154,q_154,"Chat-GPT 3 XL, Chat-GPT 3 XL, 46.808",numerical,24,2,6,14,3,0,5,1,158,1408
+155,q_155,sales in weather,categorical,12,1,7,3,1,0,2,2,192,1030
+156,q_156,coinmarketcap,categorical,13,1,7,4,1,0,2,2,192,1030
+157,q_157,Retail,categorical,11,1,7,2,1,0,2,2,192,1030
+158,q_158,47.69,numerical,5,1,1,2,1,0,2,1,792,5021
+159,q_159,1024L,categorical,11,1,6,3,1,0,2,1,792,5021
+160,q_160,Llama3.1-8B-Instruct,numerical,5,1,1,2,1,0,2,3,2484,15555
+161,q_161,Qwen2.5-32B,numerical,12,1,7,3,1,0,2,1,119,1268
+162,q_162,Mistral-Large,categorical,3,0,1,1,0,0,0,1,119,1268
+163,q_163,"(a) Claude-3.5-Sonnet, (b) Google-Translate",numerical,7,1,1,4,1,0,2,1,330,3688
+164,q_164,"Seed-X-PPO, Seed-X-DuPO, Qwen3-235B-A22B, Seed-X-Instruct, Llama-4-Scout-17B-16E, TowerInstruct-13B",numerical,11,2,4,3,3,1,6,1,330,3688
+165,q_165,Law,categorical,5,1,1,2,1,0,2,1,259,5179
+166,q_166,Parametric Normal,categorical,8,1,2,3,0,1,2,1,24,212
+167,q_167,95.90%,numerical,9,1,2,4,0,1,2,1,24,212
+168,q_168,None,categorical,4,2,1,1,1,1,4,1,36,272
+169,q_169,"English-Chinese: 28.0%, English-German: 40.7%",numerical,17,1,10,4,2,0,3,2,308,2406
+170,q_170,"Qwen2.5-7B for smallest, GLM4-9B for largest",numerical,10,1,3,4,2,0,3,1,180,2421
+171,q_171,Canary1B + Qwen27B,categorical,12,2,4,4,3,1,6,1,85,1788
+172,q_172,Gemini-1.5-pro,numerical,14,1,7,4,2,0,3,1,85,1788
+173,q_173,Llama3.1-70B-Instruct,numerical,10,1,2,5,2,0,3,1,429,3751
+174,q_174,"Gemini-2.5-flash, Deepseek-Chat-V3, Kimi-K2 ",numerical,7,1,1,3,2,0,3,1,429,3751
+175,q_175,GPT-3.5-turbo,numerical,9,1,1,5,2,0,3,1,429,3751
+176,q_176,None,categorical,11,1,0,7,3,0,4,3,1298,11302
+177,q_177,LMB. ppl,categorical,6,2,0,2,3,0,5,1,130,1195
+178,q_178,"Qwen-Plus, Claude3.5-sonnet",numerical,6,2,1,2,2,1,5,1,864,4009
+179,q_179,"Claude3.5-sonnet, Gemini1.5-flash, GPT-4o",numerical,5,1,1,2,1,0,2,1,864,4009
+180,q_180,alpha=0.2,numerical,7,2,1,3,2,0,4,1,260,2370
+181,q_181,Psy.,categorical,6,3,3,0,2,1,6,1,240,1370
+182,q_182,"Qwen-3-32B, 12",numerical,7,1,3,3,0,0,1,2,260,2632
+183,q_183,"ChemDFM-R, 0.15",numerical,6,2,1,3,1,0,3,1,492,2453
+184,q_184,"π2VC, 32.8",numerical,7,1,3,1,1,0,2,1,289,1907
+185,q_185,13,numerical,8,2,1,4,2,0,4,1,56,391
+186,q_186,Mistral Nemo,categorical,7,4,2,1,3,2,9,1,135,935
+187,q_187,"English, German, Italian, Chinese",categorical,5,1,1,2,1,0,2,1,538,3003
+188,q_188,"2: English-German, English-French",numerical,9,3,3,3,2,1,6,1,154,6068
+189,q_189,"Deepseek: R, Starcoder: JavaScript, Code-Llama: Java",categorical,5,1,2,1,1,0,2,3,336,2109
+190,q_190,"qwen2.5-72b, 0.255",numerical,11,2,4,5,1,1,4,1,385,3766
+191,q_191,"InternVL3, 27.2",numerical,9,2,3,3,2,1,5,1,221,1778
+192,q_192,GoogLeNet,categorical,5,1,1,2,1,0,2,1,342,2548
+193,q_193,"ResNet18, 13.52",numerical,8,1,2,4,1,0,2,2,714,4189
+194,q_194,"Phi-4, 20.09",numerical,5,1,1,2,1,0,2,1,306,3259
+195,q_195,"gemini-2.5-pro, gemini-2.5-flash, o3, deepseek-r1",numerical,10,1,2,5,2,0,3,1,408,2523
+196,q_196,"qwq-32b, qwen3-4b",numerical,11,2,3,5,2,1,5,1,408,2523
+197,q_197,"o3, gemini-2.5-pro, qwq-32b",numerical,7,1,2,3,1,0,2,1,408,2523
+198,q_198,Qwen,categorical,8,1,2,4,1,0,2,1,285,1532
+199,q_199,"Resize 256×256, 6.62, 4.77",numerical,9,1,3,4,1,0,2,1,468,3121
+200,q_200,"Product Buying, 0.3",numerical,9,1,3,4,1,0,2,3,693,22671
+201,q_201,"Deepseek V-3 base, 0.025",numerical,13,1,5,5,2,0,3,1,133,834
+202,q_202,"WRN‑16‑2, 1.17%",numerical,7,1,1,4,1,0,2,2,252,2028
+203,q_203,"FT-N, 0.008",numerical,10,2,4,4,1,1,4,2,450,2562
+204,q_204,Korean; different for GPT-4o-mini-Audio (Cantonese) and GPT-4o-mini (Russian),categorical,15,2,6,5,3,1,6,1,280,2938
+205,q_205,"Both, LLM, Symbolic, No feedback",categorical,6,1,2,2,1,0,2,1,150,929
+206,q_206,None,categorical,16,2,6,6,3,1,6,3,408,2555
+207,q_207,"Mono-T5, 1.16",numerical,15,2,6,6,2,1,5,2,286,4536
+208,q_208,"GPT-4, 38.2%",numerical,14,1,6,4,3,0,4,3,408,2555
+209,q_209,"12.8, Logic",numerical,9,1,4,3,1,0,2,1,135,1165
+210,q_210,"ChatGPT+Gemini–Lin. Probe, 0.045",numerical,12,3,4,4,3,1,7,1,156,1459
+211,q_211,"Ours (Identity)+Siren,greater",categorical,19,1,9,4,2,3,6,1,32,818
+212,q_212,0.124,numerical,8,1,4,2,1,0,2,1,32,818
+213,q_213,1.016,numerical,6,0,2,3,0,0,0,1,32,818
+214,q_214,Undefined: The third-smallest-uncertainty method (MLP+Siren) is not compared against QIREN,categorical,5,0,2,2,0,0,0,2,50,1423
+215,q_215,0.0069,numerical,5,1,1,2,1,0,2,1,174,2196
+216,q_216,"OpenChat 3.5, OpenChat 3.5 GPTQ; 0.05",numerical,13,2,5,4,3,0,5,1,644,3445
+217,q_217,"Semantic Coverage, 0.324",numerical,12,3,5,3,2,1,6,1,207,1326
+218,q_218,"Pruning Ratio 66.7%, 2.1",numerical,11,1,5,3,2,0,3,1,330,2381
+219,q_219,"ResNet50-MobileFaceNet, 2.25",numerical,11,3,5,3,2,1,6,1,182,1755
+220,q_220,"Gemini 3 Pro, Gemeni 2.5 Pro, GPT 5, Grok 4, GPT o3, Claude 4.5 Opus, Gemini 2.5 Flash, Claude 4.5 Sonnet Thinking, GPT 5 mini",numerical,9,3,2,4,2,1,6,1,112,1297
+221,q_221,"LLAMA, 0.0375",numerical,10,1,5,3,1,0,2,1,378,2792
+222,q_222,0.04,numerical,11,2,4,5,1,1,4,1,240,1365
+223,q_223,"BBH, 56.64",numerical,13,1,5,5,2,0,3,1,260,1861
+224,q_224,"LLaMA3.1-8B (INT4), IFEval, 16.19",numerical,10,2,4,3,2,0,4,1,260,1861
+225,q_225,13.605,numerical,23,2,12,9,1,5,8,1,77,737
+226,q_226,1.72,numerical,12,1,8,3,0,0,1,1,319,1711
+227,q_227,"Claude Sonnet 3.5, 17.94",numerical,10,1,3,5,1,0,2,1,312,2632
+228,q_228,"0.05; Qwen2.5‑Coder‑7B, Codestral‑22B",numerical,13,2,6,4,2,1,5,2,231,2301
+229,q_229,"0.039; IO for Claude 3.7 Sonnet (64K), CoT for Claude 3.7 Sonnet",numerical,15,0,6,8,0,0,0,1,353,2119
+230,q_230,"−24.08, condition precision without mathematical formalization prompting",numerical,16,2,8,2,2,2,6,2,364,3843
+231,q_231,"Gemini-1.5-Pro, 12.5",numerical,14,1,5,7,1,0,2,1,206,1344
+232,q_232,"Qwen‑VL‑Max, 10.98",numerical,12,2,5,5,1,1,4,1,252,1781
+233,q_233,GPT‑4o,categorical,11,2,4,4,2,1,5,1,235,2599
+234,q_234,"Deepseek-R1-Distill-Llama-8B, 1.40",numerical,18,2,7,7,3,2,7,2,1188,7398
+235,q_235,"VLM + GT pages, 0.22",numerical,12,2,4,6,1,2,5,1,140,1068
+236,q_236,"Llama3.2-90B-Vision-Instruct (Image), 9.33",numerical,10,0,3,6,0,0,0,1,420,3159
+237,q_237,JDT,categorical,6,1,2,2,1,0,2,1,268,1374
+238,q_238,20.16,numerical,7,1,2,3,1,0,2,1,268,1374
+239,q_239,0.67,numerical,8,1,2,4,1,0,2,1,268,1374
+240,q_240,"It's a tie, −7.70",numerical,12,1,2,8,1,0,2,1,222,1729
+241,q_241,"Llama-3.1-8B, Female, Gemini 1.5 flash 8B, 6.6%",numerical,14,1,3,7,3,0,4,2,112,1075
+242,q_242,"GPT-4.1, 25.2",numerical,8,1,2,4,1,0,2,2,331,1931
+243,q_243,"(RoBERTa,Last3,PromptCSE,STS-B) 2.3667%, SimCSE, 0.26%",numerical,12,2,4,5,2,1,5,1,198,2172
+244,q_244,"Gemini, 11.82",numerical,16,4,7,4,4,3,11,1,185,1840
+245,q_245,"11.58, fetaqa",numerical,16,2,4,8,3,1,6,2,544,2741
+246,q_246,OpenCUA-32B (Ours),categorical,6,1,1,3,1,0,2,1,40,536
+247,q_247,Qwen2.5-VL-32B,numerical,7,1,1,4,1,0,2,2,96,1353
+248,q_248,OpenCUA-7B,categorical,15,1,3,10,1,0,2,2,96,1353
+249,q_249,-38.75,numerical,11,2,5,4,1,1,4,2,335,2540
+250,q_250,"Privacy: PII not removed, 2.21, no",numerical,12,2,3,6,2,1,5,1,297,1936
+251,q_251,"More for smallest, 3 for largest, 5 for smallest",numerical,15,4,4,6,3,2,9,1,217,1463
+252,q_252,None,categorical,5,2,2,1,1,1,4,1,76,826
+253,q_253,"Deepseek-R1-Qwen 7b (ft), 0.0588, yes",numerical,11,2,2,7,1,1,4,1,189,2820
+254,q_254,"Gemini-1.5-Pro, 44.44",numerical,6,1,1,3,1,0,2,1,566,5647
+255,q_255,"Static, 1.25",numerical,11,2,3,6,1,1,4,2,667,3257
+256,q_256,"Adaptive, −0.74",numerical,11,2,3,6,1,1,4,2,503,2491
+257,q_257,Few-Shot and Few-Shot + Few-Shot,categorical,5,2,2,1,1,1,4,1,182,1708
+258,q_258,"Qwen1.5-7B and Gemma-9B, 0.47",numerical,5,1,1,2,1,0,2,1,136,1077
+259,q_259,3.5,numerical,5,1,1,2,1,0,2,1,136,1077
+260,q_260,"PM, 37.65%",numerical,11,1,2,6,2,0,3,1,266,1390
+261,q_261,"Alpaca, 29.72",numerical,11,4,4,5,1,3,8,1,310,2570
+262,q_262,"DataXFormer, −0.286",numerical,16,1,3,11,1,0,2,1,396,5136
+263,q_263,"Transformation-text, 0.134",numerical,17,2,7,6,3,1,6,1,396,5136
+264,q_264,"BERT, 1.053(5.3% harmonic mean improvement)",numerical,8,2,2,3,2,0,4,1,55,1393
+265,q_265,"LP, 25.7%;ItemKNN w. Full History's LP has larger improvment",numerical,10,1,3,3,1,1,3,1,126,1088
+266,q_266,"Llama-3.1_8B, 53.37",numerical,13,1,3,8,1,0,2,1,270,3184
+267,q_267,"No-Reason SFT, 26.14",numerical,9,1,2,5,1,0,2,2,228,1484
+268,q_268,"Gemini 2.0 Flash, 0.112",numerical,13,0,9,3,0,0,0,1,429,2204
+269,q_269,"GPT-4o mini, 0.274",numerical,11,1,5,4,1,0,2,2,858,4470
+270,q_270,"Table-R1-Zero (Llama-3.1 Series), 74.9",numerical,12,1,6,4,1,0,2,1,420,2541
+271,q_271,"under ordinaary greeting, -4.6%",numerical,11,2,4,3,3,0,5,2,80,1076
+272,q_272,"UL(upper limb), 61.9%(InternVL3-8b), 61.9%(InternVL-Chat-V1-5)",numerical,12,1,5,4,2,0,3,1,680,3051
+273,q_273,lower limb,categorical,6,1,2,2,1,0,2,1,680,3051
+274,q_274,Language,categorical,7,1,1,4,1,0,2,1,224,1566
+275,q_275,Social Science,categorical,9,1,2,4,2,0,3,1,224,1566
+276,q_276,Least NA accuracy:BPI12; most time: BPI17,numerical,10,1,4,4,1,0,2,1,188,3034
+277,q_277,"FT-M, 54.36%",numerical,8,1,3,3,1,0,2,1,450,2421
+278,q_278,"GPT 4, 2.39",numerical,8,1,3,3,1,0,2,1,418,9311
+279,q_279,"Qwen3 1.7B, 8.74",numerical,8,2,2,4,1,1,4,1,462,9354
+280,q_280,"OpenAI 4o-mini, 32.18",numerical,12,1,5,5,1,0,2,2,333,4501
+281,q_281,"Qwen-VL-Max, 7.8",numerical,11,1,4,5,1,0,2,1,684,2695
+282,q_282,"Llama-3.2-90B, 27.8",numerical,11,1,4,5,1,0,2,1,684,2695
+283,q_283,9016,numerical,6,0,3,2,0,0,0,2,45,824
+284,q_284,No,categorical,7,1,3,2,0,1,2,2,45,824
+285,q_285,5,numerical,4,0,1,2,0,0,0,2,45,824
+286,q_286,"16.4%, epoch2 to epoch3;yes",numerical,12,1,4,6,0,1,2,1,122,952
+287,q_287,"epoch1, decreasing 10.41% from LoRA to Unfreeze",numerical,10,1,3,5,1,0,2,1,122,952
+288,q_288,Gemini-1.5(13.60%),numerical,9,1,3,4,1,0,2,1,216,2560
+289,q_289,Precision decrease 11%; Recall decrease 6.77%; F1 decrease 0.84%,numerical,11,0,7,3,0,0,0,1,143,1100
+290,q_290,"P7(6.03%), No",numerical,12,1,5,3,2,1,4,1,228,3919
+291,q_291,"20.78%, can not compare since Gemini 2.5 Pro not included in Textual QA",numerical,7,1,4,2,0,1,2,1,120,1274
+292,q_292,"Gemini-2.0-Flash, 7.01",numerical,11,1,6,3,1,0,2,1,1669,9772
+293,q_293,"Gemini-2.0-Flash, 4.08",numerical,11,1,6,3,1,0,2,2,3338,19527
+294,q_294,"yes, 107.84",numerical,18,1,3,11,3,0,4,1,300,2425
+295,q_295,"Qwen3-8B, 10.53",numerical,15,1,8,5,1,0,2,1,228,1837
+296,q_296,5045.16,numerical,10,1,2,6,1,0,2,1,300,2425
+297,q_297,2.82,numerical,10,1,2,5,2,0,3,1,300,2425
+298,q_298,"Thinking, 0.014132",numerical,11,2,2,6,2,0,4,1,96,966
+299,q_299,"GSM8K, 0.0391",numerical,9,1,1,6,1,0,2,1,96,966
+300,q_300,"DINO, 0.3093",numerical,13,1,2,8,2,0,3,1,273,1689
+301,q_301,0.0433,numerical,6,0,2,3,0,0,0,1,273,1689
+302,q_302,"GeoSplat, w/ Manifold-based Priors, 0.02",numerical,8,1,1,5,1,0,2,1,190,1704
+303,q_303,"OFF4, 0.8663",numerical,12,1,2,7,2,0,3,1,190,1704
+304,q_304,"DS-Coder, -5.57",numerical,11,1,3,6,1,0,2,1,347,2671
+305,q_305,"CodeQwen (7B), +19.53",numerical,13,2,3,8,1,1,4,1,347,2671
+306,q_306,"LC70B, -0.05",numerical,6,0,2,3,0,0,0,1,384,3549
+307,q_307,"−0.141, Qwen2.5-Coder-3B/Think2SQL-3B",numerical,14,1,3,8,2,0,3,1,156,3228
+308,q_308,"Stacked Bar Chart (3), 0.96",numerical,9,1,3,4,1,0,2,1,487,3645
+309,q_309,0.435,numerical,10,0,4,5,0,0,0,1,487,3645
+310,q_310,5,numerical,21,1,1,18,1,0,2,1,192,1545
+311,q_311,48.3,numerical,9,1,2,5,1,0,2,2,491,3180
+312,q_312,6.3,numerical,14,2,4,8,1,1,4,3,490,3178
+313,q_313,"Phi-3.5-mini, -0.4",numerical,11,1,2,7,1,0,2,3,641,3966
+314,q_314,"BM25+Snow, 37.4",numerical,6,1,1,3,1,0,2,1,541,4260
+315,q_315,0.4,numerical,5,0,1,3,0,0,0,1,611,2894
+316,q_316,"BM25+GTE, -3.5",numerical,12,1,4,6,1,0,2,2,1222,5791
+317,q_317,"Trait O (Openness), not the highest, accuracy decrease 41.462%;F1 score decrease 98.05%, No",numerical,21,2,7,10,2,3,7,1,49,604
+318,q_318,"Acc_mean:64.7,acc_median:59.44;f1_mean:66.73, f1_median: 72.22",numerical,11,2,2,6,2,0,4,1,49,604
+319,q_319,"Qwen2.5-7B-Instruct + ours, 53.75",numerical,9,1,1,6,1,0,2,1,328,2016
+320,q_320,"Qwen2.5-VL, 13.46",numerical,11,1,2,7,1,0,2,1,296,2054
+321,q_321,"Table-LLAVA 13B, 24.85",numerical,15,1,2,11,1,0,2,1,216,1265
+322,q_322,"gpt-4o, -6.37",numerical,12,1,3,7,1,0,2,1,504,3702
+323,q_323,"Math; MathVerse_mini, 3.3",numerical,12,2,3,5,3,0,5,1,224,1867
+324,q_324,"RSL-SQL + KaSLA, 42.27",numerical,11,2,3,6,1,1,4,1,288,2629
+325,q_325,"Qwen3-32B, −21.7",numerical,9,1,2,5,1,0,2,2,314,2430
+326,q_326,"Qwen3-32B, 9",numerical,9,1,1,6,1,0,2,2,349,2701
+327,q_327,"4o-mini + LLaMA, 0.058",numerical,12,3,3,5,3,0,6,1,240,2350
+328,q_328,"-47.9; underlined: Qwen3-1.7B-Base (Nano) and QCRI/Fanar-9-9B-Instruct (Small), bold: HALA-1.2B (Nano) and HALA-9B (Small)",numerical,10,0,4,5,0,0,0,1,270,1847
+329,q_329,"En-Ru, 0.387",numerical,12,2,2,8,1,1,4,2,535,2723
+330,q_330,"En-Fr, -0.12",numerical,9,2,2,5,1,1,4,2,638,3384
+331,q_331,8.6918,numerical,12,0,4,7,0,0,0,1,190,1704
+332,q_332,"16.53; LLaVA-1.6-7B+Ours, Qwen-VL-7B-Instruct+Paraphrase, InstructionBlip-7B+Self-Remind, Idefics-9B-Instruct+Ours",numerical,14,3,3,8,2,1,6,1,462,3702
+333,q_333,text-embedding-3-large and voyage-3-large,categorical,9,1,3,4,1,0,2,2,132,974
+334,q_334,embed-v4.0 (+0.000583) and voyage-3-large (−0.000583),numerical,13,1,4,7,1,0,2,3,252,1713
+335,q_335,"Solver Exec, 3.1",numerical,6,1,1,3,1,0,2,1,144,1186
+336,q_336,"SFT, 48.81",numerical,10,2,2,5,2,0,4,1,63,631
+337,q_337,"En–De, 0.2, 0.0102",numerical,12,2,3,7,1,1,4,2,638,3384
+338,q_338,"37.6, MiniCPM-o-2_6 and Freeze-Omni",numerical,8,1,1,5,1,0,2,1,406,2255
+339,q_339,"Step-Audio-2-mini, 37.43",numerical,15,2,3,10,1,1,4,2,812,4591
+340,q_340,"Step-Audio-2-mini, 47.9",numerical,13,2,4,7,1,1,4,2,812,4598
+341,q_341,4,numerical,7,2,2,3,1,1,4,1,135,1138
+342,q_342,23.07,numerical,9,2,2,5,1,1,4,1,135,1138
+343,q_343,8.64,numerical,10,1,2,5,2,0,3,1,135,1138
+344,q_344,"Qwen2.5-7B + SPHERE, 103.45",numerical,10,1,1,7,1,0,2,1,160,2377
+345,q_345,"DFL, 0.0005",numerical,20,1,3,12,2,1,4,1,174,2196
+346,q_346,LORA  and LEAML,categorical,5,1,1,2,0,1,2,1,48,477
+347,q_347,34.25,numerical,7,2,2,3,1,1,4,1,30,408
+348,q_348,"0.002, 12.69",numerical,5,1,1,2,1,0,2,1,182,1622
+349,q_349,"6.29,15.39",numerical,9,1,2,4,2,0,3,1,207,2264
+350,q_350,"AIME24, 23.74",numerical,9,1,2,4,2,0,3,1,72,428
+351,q_351,"Best-of-N (AceMath-72B), 29.58",numerical,6,1,1,3,1,0,2,1,72,428
+352,q_352,"Qwen3-8B, 72.82",numerical,5,1,1,2,1,0,2,2,144,849
+353,q_353,"Experiment and rigour, 1.16",numerical,9,2,3,3,2,0,4,1,95,874
+354,q_354,"Technical Soundness, Readability",categorical,9,2,3,3,2,0,4,1,95,874
+355,q_355,"WikiText2_PPL, 0.68",numerical,7,1,1,4,1,0,2,1,120,937
+356,q_356,"LLaMA3-8B, AlphaEdit, 453.58",numerical,10,3,4,3,2,1,6,1,160,2377
+357,q_357,"Qwen3-8B, Compression-Tokens (Causal), 10.94",numerical,11,2,3,5,2,0,4,1,317,1921
+358,q_358,"Gemma2-2B, Compression-Tokens (Bidirectional), 2.215",numerical,12,3,3,6,2,1,6,2,644,3097
+359,q_359,"55.33,Rouge NLLB 1.3 B,23992.3",numerical,11,2,3,4,3,0,5,1,134,1448
+360,q_360,Yes,categorical,7,1,2,2,1,1,3,1,134,1448
+361,q_361,8,numerical,4,0,1,2,0,0,0,1,134,1448
+362,q_362,"14B, 3",numerical,11,2,4,4,2,2,6,1,253,2978
+363,q_363,"Synthetic, 0.25",numerical,8,3,3,1,2,1,6,1,702,3886
+364,q_364,"Code, 3.98",numerical,8,3,3,1,2,1,6,1,702,3886
+365,q_365,"GPT-4o -- Vivecraft, 12",numerical,15,3,5,6,3,2,8,1,153,1275
+366,q_366,"Mistral NeMo 12B, 5, -2.1",numerical,14,2,3,7,3,0,5,1,264,2045
+367,q_367,"8.48, Accuracy",numerical,7,1,1,4,1,0,2,1,154,839
+368,q_368,Llama-3-8B,categorical,7,2,2,2,2,0,4,1,104,953
+369,q_369,"Libri (2spk), 15.73",numerical,5,0,2,2,0,0,0,1,133,1083
+370,q_370,"CodePDE Agent : based on posterior error,Our Agent: Multiple",categorical,0,0,0,0,0,0,0,1,76,826
