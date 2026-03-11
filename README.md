@@ -99,6 +99,7 @@ Calculate input and reasoning complexity metrics ($C_{flow}$, $I_{calc}$, $L_{pl
 
 If you use this dataset, please cite our paper:
 
+```bibtex
 @misc{wang2026scitarc,
       title={SciTaRC: Benchmarking QA on Scientific Tabular Data that Requires Language Reasoning and Complex Computation}, 
       author={Hexuan Wang and Yaxuan Ren and Srikar Bommireddypalli and Shuxian Chen and Adarsh Prabhudesai and Rongkun Zhou and Elina Baral and Philipp Koehn},
@@ -108,3 +109,4 @@ If you use this dataset, please cite our paper:
       primaryClass={cs.CL},
       url={https://arxiv.org/abs/2603.08910}, 
 }
+```
