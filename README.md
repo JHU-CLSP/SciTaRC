@@ -1,7 +1,7 @@
 # SciTaRC: Benchmarking QA on Scientific Tabular Data that Requires Language Reasoning and Complex Computation
 
 [![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/JHU-CLSP/SciTaRC)
-[![arXiv](https://img.shields.io/badge/arXiv-Paper-red)](https://arxiv.org/abs/YOUR_ARXIV_ID_HERE)
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-red)](https://arxiv.org/abs/2603.08910)
 [![Code License: MIT](https://img.shields.io/badge/Code%20License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Data License: CC BY-NC 4.0](https://img.shields.io/badge/Data%20License-CC%20BY--NC%204.0-blue.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
@@ -32,7 +32,7 @@ The benchmark data is provided locally as `scitarc_dataset.json` and is also acc
       ],
       "question": "Which model has the biggest difference in translation quality when translating into English versus from English, and what is the value of that difference?",
       "answer": "NLLB-200-1.3B. 64.71",
-      "plan": "SELECT all models\nLOOP for each mode\n    SELECT all language pair containing en(English)\n    LOOP for each language pair containing en (English)\n        COMPUTE diff = abs(score translating into English − score translating from English)\n..."
+      "plan": "SELECT all models\nLOOP for each model\n    SELECT all language pair containing en(English)\n    LOOP for each language pair containing en (English)\n        COMPUTE diff = abs(score translating into English − score translating from English)\n..."
     }
 
 ### Data Fields
@@ -99,3 +99,12 @@ Calculate input and reasoning complexity metrics ($C_{flow}$, $I_{calc}$, $L_{pl
 
 If you use this dataset, please cite our paper:
 
+@misc{wang2026scitarc,
+      title={SciTaRC: Benchmarking QA on Scientific Tabular Data that Requires Language Reasoning and Complex Computation}, 
+      author={Hexuan Wang and Yaxuan Ren and Srikar Bommireddypalli and Shuxian Chen and Adarsh Prabhudesai and Rongkun Zhou and Elina Baral and Philipp Koehn},
+      year={2026},
+      eprint={2603.08910},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2603.08910}, 
+}
