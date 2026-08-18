@@ -43,6 +43,7 @@ The benchmark data is provided locally as `scitarc_dataset.json` and is also acc
 * `plan` *(string)*: The expert-authored pseudo-code blueprint (e.g., SELECT, LOOP, COMPUTE, IF).
 * `relevant_tables` *(list)*: The exact LaTeX source code for the specific table(s) required.
 * `tables` *(list)*: The LaTeX source code for all tables and figures extracted from the paper.
+
 * `fulltext` *(string)*: The complete LaTeX source text of the original scientific paper.
 
 ## 🚀 Running Inference (`generate.py`)
